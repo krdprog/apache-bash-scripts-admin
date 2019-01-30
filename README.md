@@ -26,3 +26,13 @@ Apache bash scripts for administration: add user, add domain, delete user, delet
 - отключим виртуальный хост
 - удалим юзера
 - перезагрузим апач
+
+**Посмотреть пользователей в системе:**
+
+```bash
+cat /etc/passwd | grep home
+```
+или так:
+```bash
+sed 's/:.*//' /etc/passwd
+```
