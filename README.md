@@ -11,6 +11,9 @@ Apache bash scripts for administration: add user, add domain, delete user, delet
 - $1 - user
 - $2 - domain
 
+```bash
+sh add-user-and-site.sh username sitename.com
+```
 
 ## delete-user-and-site.sh
 
@@ -19,6 +22,10 @@ Apache bash scripts for administration: add user, add domain, delete user, delet
 **Скрипт принимает 2 переменные:**
 - $1 - user
 - $2 - domain
+
+```bash
+sh delete-user-and-site.sh username sitename.com
+```
 
 **Шаги скрипта:**
 - удалим каталог сайта
